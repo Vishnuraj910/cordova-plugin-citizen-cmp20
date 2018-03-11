@@ -5,7 +5,6 @@
   "cordova": {
     "id": "cordova-plugin-citizen-cmp20",
     "platforms": [
-     
       "android"
     ]
   },
@@ -21,6 +20,13 @@
     "cordova-android",
 
   ],
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
   "scripts": {
     "test": "npm run jshint",
     "jshint": "jshint www && jshint src && jshint tests"
