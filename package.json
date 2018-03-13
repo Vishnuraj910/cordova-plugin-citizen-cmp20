@@ -17,8 +17,7 @@
    "bluetooth",
    "printer",
    "citizen",
-    "cordova-android",
-
+    "cordova-android"
   ],
   "scripts": {
     "test": "npm run jshint",
