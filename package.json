@@ -29,7 +29,7 @@
         "cordova": ">100"
       }
     }
-  }
+  },
   "scripts": {
     "test": "npm run jshint",
     "jshint": "jshint www && jshint src && jshint tests"
