@@ -20,16 +20,6 @@
     "cordova-android",
 
   ],
-  "engines": {
-    "cordovaDependencies": {
-      "0.0.0": {
-        "cordova-android": ">=4.0.0"
-      },
-      "2.0.0": {
-        "cordova": ">100"
-      }
-    }
-  },
   "scripts": {
     "test": "npm run jshint",
     "jshint": "jshint www && jshint src && jshint tests"
