@@ -53,7 +53,7 @@ navigator.blePrinter.print(String str, successcallback, errorcallback);
 - 
 Quick Example
 -------------------------
-navigator.blePrinter.print(stringdata,
+navigator.blePrinter.printWithLogo(stringdata,
     function (results) {
         alert(JSON.stringify(results));
     },
@@ -63,3 +63,11 @@ navigator.blePrinter.print(stringdata,
         );
 
 
+navigator.blePrinter.printText(stringdata,
+    function (results) {
+        alert(JSON.stringify(results));
+    },
+            function (error) {
+                alert(JSON.stringify(error));
+            }
+        );
