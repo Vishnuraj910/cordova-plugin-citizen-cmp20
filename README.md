@@ -38,8 +38,8 @@ Although in the global scope, they are not available until after the `deviceread
 
 ## Installation
 
-    cordova plugin add cordova-plugin-citizen-cmp20
-
+    cordova plugin add https://github.com/Vishnuraj910/cordova-plugin-citizen-cmp20
+    
 ## Supported Platforms
 - Android
 
