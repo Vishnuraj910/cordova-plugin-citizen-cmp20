@@ -27,7 +27,7 @@
     <description>Cordova Citizen Blutooth Printer Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,bluetooth,printer</keywords>
-    <repo>https://github.com/nancydrew123/cordova-plugin-citizen-cmp20.git</repo>
+    <repo>https://github.com/Vishnuraj910/cordova-plugin-citizen-cmp20.git</repo>
     <issue>https://issues.apache.org/jira/browse/CB/component/12320639</issue>
 
     <js-module src="www/ble-printer.js" name="blePrinter">

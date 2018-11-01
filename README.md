@@ -38,8 +38,8 @@ Although in the global scope, they are not available until after the `deviceread
 
 ## Installation
 
-    cordova plugin add cordova-plugin-citizen-cmp20
-
+    cordova plugin add https://github.com/Vishnuraj910/cordova-plugin-citizen-cmp20
+    
 ## Supported Platforms
 - Android
 
@@ -53,7 +53,7 @@ navigator.blePrinter.print(String str, successcallback, errorcallback);
 - 
 Quick Example
 -------------------------
-navigator.blePrinter.print(stringdata,
+navigator.blePrinter.printWithLogo(stringdata,
     function (results) {
         alert(JSON.stringify(results));
     },
@@ -63,3 +63,11 @@ navigator.blePrinter.print(stringdata,
         );
 
 
+navigator.blePrinter.printText(stringdata,
+    function (results) {
+        alert(JSON.stringify(results));
+    },
+            function (error) {
+                alert(JSON.stringify(error));
+            }
+        );
